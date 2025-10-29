@@ -11,10 +11,10 @@ A business plan for a residential electrical contracting company in Nashville, T
 
 **Key Financial Metrics:**
 - Year 1 Startup Costs: $16,800
-- Year 1 Revenue Projection: ${year_1_revenue_projection} (First Crew)
-- Year 1 Profit Projection: ${year_1_profit_projection} (First Crew)
+- Year 1 Revenue Projection: {year_1_revenue_projection} (First Crew)
+- Year 1 Profit Projection: {year_1_profit_projection} (First Crew)
 - Target: Scale to 4 crews within 12 months
-- Year 1 Total Company Revenue Potential: ${year_1_total_revenue_potential} (with all 4 crews)
+- Year 1 Total Company Revenue Potential: {year_1_total_revenue_potential} (with all 4 crews)
 
 ---
 
@@ -44,9 +44,9 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 ### Revenue Model by Crew Size
 
 #### First Crew (Hired Technician, Mike's PM)
-- **Annual Revenue:** ${crew_1_annual_revenue}
-- **Monthly Revenue:** ${crew_1_monthly_revenue}
-- **Total First Year Profit:** ${crew_1_annual_profit}
+- **Annual Revenue:** {crew_1_annual_revenue}
+- **Monthly Revenue:** {crew_1_monthly_revenue}
+- **Total First Year Profit:** {crew_1_annual_profit}
 
 **Crew Composition:**
 - Hired Lead Technician: 30 hours/week at $30-50/hour base pay
@@ -58,10 +58,10 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 - Monthly billable: 120 hours
 
 #### Second Crew (Growth Phase)
-- **Annual Revenue:** ${crew_2_annual_revenue}
-- **Monthly Revenue:** ${crew_2_monthly_revenue}
-- **Monthly Costs:** ${crew_2_monthly_costs}
-- **Monthly Profit:** ${crew_2_monthly_profit}
+- **Annual Revenue:** {crew_2_annual_revenue}
+- **Monthly Revenue:** {crew_2_monthly_revenue}
+- **Monthly Costs:** {crew_2_monthly_costs}
+- **Monthly Profit:** {crew_2_monthly_profit}
 
 **Crew Composition:**
 - Hours per week: 20
@@ -95,7 +95,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 | Apprentice Labor | $0 | $9,167 | $13,750 | $18,333 |
 | Admin Labor | $3,333 | $3,333 | $3,333 | $3,333 |
 | Project Manager | $11,111 | $11,111 | $11,111 | $11,111 |
-| **Total Monthly Costs** | **${crew_1_monthly_costs}** | **${crew_2_monthly_costs_total}** | **${crew_3_monthly_costs_total}** | **${crew_4_monthly_costs_total}** |
+| **Total Monthly Costs** | **{crew_1_monthly_costs_total}** | **{crew_2_monthly_costs_total}** | **{crew_3_monthly_costs_total}** | **{crew_4_monthly_costs_total}** |
 
 ### Key Expense Categories
 
@@ -133,7 +133,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 - **Brendan Dauenhauer:** Investor/Business Partner
 - Hourly rate to clients: $100
 - Labor cost to company: Technician base pay ($30-50/hour)
-- Profit margin after labor: ${crew_1_profit_margin}
+- Profit margin after labor: {crew_1_profit_margin}
 
 #### Two Crew Model
 - Crew 1: Technician + Apprentice (30 hours/week)
@@ -184,22 +184,22 @@ Brendan has a background in business administration and finance. His expertise i
 ![Profit Margin by Crew Count](profit_margin_chart.png)
 
 ### 2 Crew Scenario (By Month 4-6)
-- Total Monthly Revenue: ${crew_2_monthly_revenue}
-- Total Monthly Costs: ${crew_2_monthly_costs_total}
-- Monthly Profit: ${crew_2_monthly_profit}
-- Annual Profit (8 months): ${crew_2_annual_profit_8_months}
+- Total Monthly Revenue: {crew_2_monthly_revenue}
+- Total Monthly Costs: {crew_2_monthly_costs_total}
+- Monthly Profit: {crew_2_monthly_profit}
+- Annual Profit (8 months): {crew_2_annual_profit_8_months}
 
 ### 3 Crew Scenario (By Month 8-10)
-- Total Monthly Revenue: ${crew_3_monthly_revenue}
-- Total Monthly Costs: ${crew_3_monthly_costs_total}
-- Monthly Profit: ${crew_3_monthly_profit}
-- Represents ${crew_3_profit_margin} net margin during growth phase
+- Total Monthly Revenue: {crew_3_monthly_revenue}
+- Total Monthly Costs: {crew_3_monthly_costs_total}
+- Monthly Profit: {crew_3_monthly_profit}
+- Represents {crew_3_profit_margin} net margin during growth phase
 
 ### 4 Crew Full Operation
-- Total Monthly Revenue: ${crew_4_monthly_revenue}
-- Total Monthly Costs: ${crew_4_monthly_costs_total}
-- Monthly Profit: ${crew_4_monthly_profit}
-- Represents ${crew_4_profit_margin} net margin with all crews operational
+- Total Monthly Revenue: {crew_4_monthly_revenue}
+- Total Monthly Costs: {crew_4_monthly_costs_total}
+- Monthly Profit: {crew_4_monthly_profit}
+- Represents {crew_4_profit_margin} net margin with all crews operational
 
 ---
 
@@ -335,19 +335,19 @@ Brendan has a background in business administration and finance. His expertise i
 
 ### Monthly Cash Flow Analysis
 
-Month 1: Revenue ${crew_1_monthly_revenue} - Costs ${crew_1_monthly_costs} = +${crew_1_monthly_profit} profit
-         (Minus $16,800 startup = ${month_1_net} net)
+Month 1: Revenue {crew_1_monthly_revenue} - Costs {crew_1_monthly_costs} = +{crew_1_monthly_profit} profit
+         (Minus $16,800 startup = {month_1_net} net)
 
-Month 2: Revenue ${crew_1_monthly_revenue} - Costs ${crew_1_monthly_costs} = +${crew_1_monthly_profit} profit
-         (Cumulative: ${month_1_net} + ${crew_1_monthly_profit} = ${month_2_cumulative})
+Month 2: Revenue {crew_1_monthly_revenue} - Costs {crew_1_monthly_costs} = +{crew_1_monthly_profit} profit
+         (Cumulative: {month_1_net} + {crew_1_monthly_profit} = {month_2_cumulative})
 
 Month 3+: Steady +${crew_1_monthly_profit}/month profit
 
 ### Annual Cash Flow Projection
 
 Startup Investment:           -$16,800
-Year 1 Total Profit:          +${year_1_profit_projection}
-Adjusted Year 1 Net:          ${year_1_net_profit}
+Year 1 Total Profit:          +{year_1_profit_projection}
+Adjusted Year 1 Net:          {year_1_net_profit}
 Year 2 Projection:            +$164,000+
 
 ---
@@ -371,7 +371,7 @@ Year 2 Projection:            +$164,000+
 - **Average Job Value:** Monitor pricing effectiveness
 
 #### Annual Metrics
-- **Year 1 Revenue:** Target ${year_1_revenue_target} (1-2 crews)
+- **Year 1 Revenue:** Target {year_1_revenue_target} (1-2 crews)
 - **Year 2 Revenue:** Target $600K-$1M (2-3 crews)
 - **Year 3 Revenue:** Target $1.5M+ (4+ crews)
 - **ROI on Initial Investment:** Target 800%+ by end of year 1
@@ -414,21 +414,21 @@ Year 2 Projection:            +$164,000+
 - ✓ First 3-5 jobs booked
 
 ### Month 3: Early Traction
-- ✓ ${month_3_revenue_milestone} monthly revenue established
+- ✓ {month_3_revenue_milestone} monthly revenue established
 - ✓ 5+ completed jobs with testimonials
 - ✓ Positive cash flow achieved
 - ✓ Apprentice or second team member recruited
 
 ### Month 6: Expansion Ready
-- ✓ ${month_6_revenue_milestone} monthly revenue (1.5 crews)
+- ✓ {month_6_revenue_milestone} monthly revenue (1.5 crews)
 - ✓ Second crew added
 - ✓ Documented processes and training materials complete
 - ✓ 20+ satisfied customers with referral pipeline
 
 ### Month 12: Full Operation
-- ✓ ${month_12_revenue_milestone} monthly revenue (3-4 crews)
+- ✓ {month_12_revenue_milestone} monthly revenue (3-4 crews)
 - ✓ All 4 crews operational
-- ✓ ${year_1_profit_milestone} annual profit achieved
+- ✓ {year_1_profit_milestone} annual profit achieved
 - ✓ Company systems and team established for scaling
 
 ---

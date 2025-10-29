@@ -1,7 +1,7 @@
 import csv
 
 def format_currency(value):
-    return f"${int(value):,}"
+    return f"{int(value):,}"
 
 def main():
     with open('business_plan_data.csv', 'r') as f:
@@ -37,6 +37,11 @@ def main():
     template = template.replace('{year_1_profit_projection}', format_currency(year_1_profit_projection))
     template = template.replace('{year_1_total_revenue_potential}', format_currency(year_1_total_revenue_potential))
     template = template.replace('{monthly_revenue_table}', monthly_revenue_table)
+
+    template = template.replace('{crew_1_monthly_costs_total}', format_currency(crew_data[1]['monthly_costs']))
+    template = template.replace('{crew_2_monthly_costs_total}', format_currency(crew_data[2]['monthly_costs']))
+    template = template.replace('{crew_3_monthly_costs_total}', format_currency(crew_data[3]['monthly_costs']))
+    template = template.replace('{crew_4_monthly_costs_total}', format_currency(crew_data[4]['monthly_costs']))
 
     # Crew 1
     template = template.replace('{crew_1_annual_revenue}', format_currency(crew_data[1]['monthly_revenue'] * 12))
