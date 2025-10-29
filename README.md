@@ -42,7 +42,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 | 1 | 32,083 | 18,515 | 13,568 | 42.3% |
 | 2 | 64,167 | 35,971 | 28,196 | 43.9% |
 | 3 | 91,042 | 59,121 | 31,920 | 35.1% |
-| 4 | 117,917 | 86,943 | 30,974 | 26.2% |
+| 4 | 117,917 | 86,943 | 30,974 | 26.3% |
 
 
 ### Revenue Model by Crew Size
@@ -203,7 +203,7 @@ Brendan has a background in business administration and finance. His expertise i
 - Total Monthly Revenue: 117,917
 - Total Monthly Costs: 86,943
 - Monthly Profit: 30,974
-- Represents 26.2% net margin with all crews operational
+- Represents 26.3% net margin with all crews operational
 
 ---
 

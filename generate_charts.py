@@ -103,16 +103,20 @@ def profit_margin_chart(data) -> None:
 
 def cost_breakdown_chart() -> None:
     categories = [
-        "Apprentice Labor",
-        "Technician Labor",
-        "Project Manager",
+        "Licensing/Insurance",
         "Vehicles",
         "Marketing",
-        "Other Operating Costs",
+        "Office",
+        "Consumables",
+        "Technician Labor",
+        "Apprentice Labor",
+        "Admin Labor",
+        "Project Manager",
+        "Discrepancy",
     ]
-    amounts = np.array([18333, 44917, 11111, 3985, 2000, 6597])
+    amounts = np.array([1028, 3985, 2000, 1967, 269, 22917, 18333, 3333, 11111, 22000])
 
-    fig, ax = plt.subplots(figsize=(8, 8))
+    fig, ax = plt.subplots(figsize=(10, 10))
     
     ax.pie(amounts, labels=categories, autopct='%1.1f%%', startangle=90)
     ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
