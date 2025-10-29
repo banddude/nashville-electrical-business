@@ -37,13 +37,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 
 ### Monthly Revenue & Profit Comparison by Crew Count
 
-| crew_count | monthly_revenue | monthly_costs | monthly_profit | profit_margin |
-|---|---|---|---|---|
-| 1 | 32083 | 18837 | 13246 | 41.3% |
-| 2 | 64167 | 35971 | 28196 | 43.9% |
-| 3 | 91042 | 59121 | 31920 | 35.1% |
-| 4 | 117917 | 86943 | 30974 | 26.2% |
-
+{{financial_table}}
 
 ### Revenue Model by Crew Size
 
