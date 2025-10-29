@@ -11,10 +11,10 @@ A business plan for a residential electrical contracting company in Nashville, T
 
 **Key Financial Metrics:**
 - Year 1 Startup Costs: $16,800
-- Year 1 Revenue Projection: $252,000 (First Crew)
-- Year 1 Profit Projection: $13,589 (First Crew)
+- Year 1 Revenue Projection: $$384,996 (First Crew)
+- Year 1 Profit Projection: $$162,816 (First Crew)
 - Target: Scale to 4 crews within 12 months
-- Year 1 Total Company Revenue Potential: $1,415,000 (with all 4 crews)
+- Year 1 Total Company Revenue Potential: $$1,415,004 (with all 4 crews)
 
 ---
 
@@ -39,18 +39,18 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 
 | crew_count | monthly_revenue | monthly_costs | monthly_profit | profit_margin |
 |---|---|---|---|---|
-| 1 | 32083 | 18837 | 13246 | 41.3% |
-| 2 | 64167 | 35971 | 28196 | 43.9% |
-| 3 | 91042 | 59121 | 31920 | 35.1% |
-| 4 | 117917 | 86943 | 30974 | 26.2% |
+| 1 | $32,083 | $18,515 | $13,568 | 42.3% |
+| 2 | $64,167 | $35,971 | $28,196 | 43.9% |
+| 3 | $91,042 | $59,121 | $31,920 | 35.1% |
+| 4 | $117,917 | $86,943 | $30,974 | 26.2% |
 
 
 ### Revenue Model by Crew Size
 
 #### First Crew (Hired Technician, Mike's PM)
-- **Annual Revenue:** $385,000
-- **Monthly Revenue:** $32,083
-- **Total First Year Profit:** $158,952
+- **Annual Revenue:** $$384,996
+- **Monthly Revenue:** $$32,083
+- **Total First Year Profit:** $$162,816
 
 **Crew Composition:**
 - Hired Lead Technician: 30 hours/week at $30-50/hour base pay
@@ -62,10 +62,10 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 - Monthly billable: 120 hours
 
 #### Second Crew (Growth Phase)
-- **Annual Revenue:** $170,000
-- **Monthly Revenue:** $14,166.67
-- **Monthly Costs:** $8,333.33
-- **Monthly Profit:** $5,833.33
+- **Annual Revenue:** $$770,004
+- **Monthly Revenue:** $$64,167
+- **Monthly Costs:** $$35,971
+- **Monthly Profit:** $$28,196
 
 **Crew Composition:**
 - Hours per week: 20
@@ -99,7 +99,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 | Apprentice Labor | $0 | $9,167 | $13,750 | $18,333 |
 | Admin Labor | $3,333 | $3,333 | $3,333 | $3,333 |
 | Project Manager | $11,111 | $11,111 | $11,111 | $11,111 |
-| **Total Monthly Costs** | **$18,837** | **$35,971** | **$59,121** | **$86,943** |
+| **Total Monthly Costs** | **$$18,515** | **$$35,971** | **$$59,121** | **$$86,943** |
 
 ### Key Expense Categories
 
@@ -137,7 +137,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 - **Brendan Dauenhauer:** Investor/Business Partner
 - Hourly rate to clients: $100
 - Labor cost to company: Technician base pay ($30-50/hour)
-- Profit margin after labor: 41.3%
+- Profit margin after labor: $42.3%
 
 #### Two Crew Model
 - Crew 1: Technician + Apprentice (30 hours/week)
@@ -188,22 +188,22 @@ Brendan has a background in business administration and finance. His expertise i
 ![Profit Margin by Crew Count](profit_margin_chart.png)
 
 ### 2 Crew Scenario (By Month 4-6)
-- Total Monthly Revenue: $35,166.67
-- Total Monthly Costs: $28,116
-- Monthly Profit: $7,050.67
-- Annual Profit (8 months): $56,405
+- Total Monthly Revenue: $$64,167
+- Total Monthly Costs: $$35,971
+- Monthly Profit: $$28,196
+- Annual Profit (8 months): $$225,568
 
 ### 3 Crew Scenario (By Month 8-10)
-- Total Monthly Revenue: $51,042
-- Total Monthly Costs: $46,310
-- Monthly Profit: $4,732
-- Represents 9% net margin during growth phase
+- Total Monthly Revenue: $$91,042
+- Total Monthly Costs: $$59,121
+- Monthly Profit: $$31,920
+- Represents $35.1% net margin during growth phase
 
 ### 4 Crew Full Operation
-- Total Monthly Revenue: $61,161
-- Total Monthly Costs: $51,171
-- Monthly Profit: $9,990
-- Represents 16% net margin with all crews operational
+- Total Monthly Revenue: $$117,917
+- Total Monthly Costs: $$86,943
+- Monthly Profit: $$30,974
+- Represents $26.2% net margin with all crews operational
 
 ---
 
@@ -339,19 +339,19 @@ Brendan has a background in business administration and finance. His expertise i
 
 ### Monthly Cash Flow Analysis
 
-Month 1: Revenue $12,000 - Costs $1,206 = +$10,794 profit
-         (Minus $16,800 startup = -$6,006 net)
+Month 1: Revenue $$32,083 - Costs $$18,515 = +${crew_1_monthly_profit} profit
+         (Minus $16,800 startup = $$-3,232 net)
 
-Month 2: Revenue $12,000 - Costs $1,206 = +$10,794 profit
-         (Cumulative: -$6,006 + $10,794 = +$4,788)
+Month 2: Revenue $$32,083 - Costs $$18,515 = +${crew_1_monthly_profit} profit
+         (Cumulative: $$-3,232 + ${crew_1_monthly_profit} = $$10,336)
 
-Month 3+: Steady +$10,794/month profit
+Month 3+: Steady +${crew_1_monthly_profit}/month profit
 
 ### Annual Cash Flow Projection
 
 Startup Investment:           -$16,800
-Year 1 Total Profit:          +$13,589
-Adjusted Year 1 Net:          -$3,211
+Year 1 Total Profit:          +$$162,816
+Adjusted Year 1 Net:          $$146,016
 Year 2 Projection:            +$164,000+
 
 ---
@@ -375,7 +375,7 @@ Year 2 Projection:            +$164,000+
 - **Average Job Value:** Monitor pricing effectiveness
 
 #### Annual Metrics
-- **Year 1 Revenue:** Target $252K-$420K (1-2 crews)
+- **Year 1 Revenue:** Target $$384,996 - $770,004 (1-2 crews)
 - **Year 2 Revenue:** Target $600K-$1M (2-3 crews)
 - **Year 3 Revenue:** Target $1.5M+ (4+ crews)
 - **ROI on Initial Investment:** Target 800%+ by end of year 1
@@ -418,21 +418,21 @@ Year 2 Projection:            +$164,000+
 - ✓ First 3-5 jobs booked
 
 ### Month 3: Early Traction
-- ✓ $15K+ monthly revenue established
+- ✓ $$32,083 monthly revenue established
 - ✓ 5+ completed jobs with testimonials
 - ✓ Positive cash flow achieved
 - ✓ Apprentice or second team member recruited
 
 ### Month 6: Expansion Ready
-- ✓ $25K+ monthly revenue (1.5 crews)
+- ✓ $$64,167 monthly revenue (1.5 crews)
 - ✓ Second crew added
 - ✓ Documented processes and training materials complete
 - ✓ 20+ satisfied customers with referral pipeline
 
 ### Month 12: Full Operation
-- ✓ $40K+ monthly revenue (3-4 crews)
+- ✓ $$117,917 monthly revenue (3-4 crews)
 - ✓ All 4 crews operational
-- ✓ $200K+ annual profit achieved
+- ✓ $$371,688 annual profit achieved
 - ✓ Company systems and team established for scaling
 
 ---
