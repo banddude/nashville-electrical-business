@@ -84,18 +84,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 
 ### Monthly Operating Costs Structure
 
-| Category | 1 Crew Monthly | 2 Crew Monthly | 3 Crew Monthly | 4 Crew Monthly |
-|---|---|---|---|---|
-| Licensing/Insurance | $256 | $632 | $819 | $1,028 |
-| Vehicles | $583 | $2,283 | $3,133 | $3,985 |
-| Marketing | $2,000 | $2,000 | $2,000 | $2,000 |
-| Office | $1,281 | $1,619 | $1,788 | $1,967 |
-| Consumables | $269 | $269 | $269 | $269 |
-| Technician Labor | $0 | $18,667 | $22,917 | $22,917 |
-| Apprentice Labor | $0 | $9,167 | $13,750 | $18,333 |
-| Admin Labor | $3,333 | $3,333 | $3,333 | $3,333 |
-| Project Manager | $11,111 | $11,111 | $11,111 | $11,111 |
-| **Total Monthly Costs** | **{crew_1_monthly_costs_total}** | **{crew_2_monthly_costs_total}** | **{crew_3_monthly_costs_total}** | **{crew_4_monthly_costs_total}** |
+{monthly_operating_costs_table}
 
 ### Key Expense Categories
 

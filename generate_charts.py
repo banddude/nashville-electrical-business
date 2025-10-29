@@ -102,19 +102,13 @@ def profit_margin_chart(data) -> None:
     plt.close(fig)
 
 def cost_breakdown_chart() -> None:
-    categories = [
-        "Licensing/Insurance",
-        "Vehicles",
-        "Marketing",
-        "Office",
-        "Consumables",
-        "Technician Labor",
-        "Apprentice Labor",
-        "Admin Labor",
-        "Project Manager",
-        "Contingency",
-    ]
-    amounts = np.array([1028, 3985, 2000, 1967, 269, 22917, 18333, 3333, 11111, 22000])
+    with open('operating_expenses.csv', 'r') as f:
+        reader = csv.reader(f)
+        header = next(reader)
+        data = list(reader)
+
+    categories = [row[0] for row in data]
+    amounts = [int(row[4]) for row in data]
 
     fig, ax = plt.subplots(figsize=(10, 10))
     

@@ -12,7 +12,7 @@ A business plan for a residential electrical contracting company in Nashville, T
 **Key Financial Metrics:**
 - Year 1 Startup Costs: $16,800
 - Year 1 Revenue Projection: 384,996 (First Crew)
-- Year 1 Profit Projection: 162,816 (First Crew)
+- Year 1 Profit Projection: 159,000 (First Crew)
 - Target: Scale to 4 crews within 12 months
 - Year 1 Total Company Revenue Potential: 1,415,004 (with all 4 crews)
 
@@ -39,10 +39,10 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 
 | crew_count | monthly_revenue | monthly_costs | monthly_profit | profit_margin |
 |---|---|---|---|---|
-| 1 | 32,083 | 18,515 | 13,568 | 42.3% |
-| 2 | 64,167 | 35,971 | 28,196 | 43.9% |
-| 3 | 91,042 | 59,121 | 31,920 | 35.1% |
-| 4 | 117,917 | 86,943 | 30,974 | 26.3% |
+| 1 | 32,083 | 18,833 | 13,250 | 41.3% |
+| 2 | 64,167 | 49,081 | 15,086 | 23.5% |
+| 3 | 91,042 | 59,120 | 31,922 | 35.1% |
+| 4 | 117,917 | 64,943 | 52,974 | 44.9% |
 
 
 ### Revenue Model by Crew Size
@@ -50,7 +50,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 #### First Crew (Hired Technician, Mike's PM)
 - **Annual Revenue:** 384,996
 - **Monthly Revenue:** 32,083
-- **Total First Year Profit:** 162,816
+- **Total First Year Profit:** 159,000
 
 **Crew Composition:**
 - Hired Lead Technician: 30 hours/week at $30-50/hour base pay
@@ -64,8 +64,8 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 #### Second Crew (Growth Phase)
 - **Annual Revenue:** 770,004
 - **Monthly Revenue:** 64,167
-- **Monthly Costs:** 35,971
-- **Monthly Profit:** 28,196
+- **Monthly Costs:** 49,081
+- **Monthly Profit:** 15,086
 
 **Crew Composition:**
 - Hours per week: 20
@@ -89,8 +89,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 ### Monthly Operating Costs Structure
 
 | Category | 1 Crew Monthly | 2 Crew Monthly | 3 Crew Monthly | 4 Crew Monthly |
-|---|---|---|---|---|
-| Licensing/Insurance | $256 | $632 | $819 | $1,028 |
+|---|---|---|---|---|| Licensing/Insurance | $256 | $632 | $819 | $1,028 |
 | Vehicles | $583 | $2,283 | $3,133 | $3,985 |
 | Marketing | $2,000 | $2,000 | $2,000 | $2,000 |
 | Office | $1,281 | $1,619 | $1,788 | $1,967 |
@@ -99,7 +98,8 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 | Apprentice Labor | $0 | $9,167 | $13,750 | $18,333 |
 | Admin Labor | $3,333 | $3,333 | $3,333 | $3,333 |
 | Project Manager | $11,111 | $11,111 | $11,111 | $11,111 |
-| **Total Monthly Costs** | **18,515** | **35,971** | **59,121** | **86,943** |
+| **Total Monthly Costs** | **$18,833** | **$49,081** | **$59,120** | **$64,943** |
+
 
 ### Key Expense Categories
 
@@ -137,7 +137,7 @@ The Nashville electrical market is competitive. We will differentiate ourselves 
 - **Brendan Dauenhauer:** Investor/Business Partner
 - Hourly rate to clients: $100
 - Labor cost to company: Technician base pay ($30-50/hour)
-- Profit margin after labor: 42.3%
+- Profit margin after labor: 41.3%
 
 #### Two Crew Model
 - Crew 1: Technician + Apprentice (30 hours/week)
@@ -189,21 +189,21 @@ Brendan has a background in business administration and finance. His expertise i
 
 ### 2 Crew Scenario (By Month 4-6)
 - Total Monthly Revenue: 64,167
-- Total Monthly Costs: 35,971
-- Monthly Profit: 28,196
-- Annual Profit (8 months): 225,568
+- Total Monthly Costs: 49,081
+- Monthly Profit: 15,086
+- Annual Profit (8 months): 120,688
 
 ### 3 Crew Scenario (By Month 8-10)
 - Total Monthly Revenue: 91,042
-- Total Monthly Costs: 59,121
-- Monthly Profit: 31,920
+- Total Monthly Costs: 59,120
+- Monthly Profit: 31,922
 - Represents 35.1% net margin during growth phase
 
 ### 4 Crew Full Operation
 - Total Monthly Revenue: 117,917
-- Total Monthly Costs: 86,943
-- Monthly Profit: 30,974
-- Represents 26.3% net margin with all crews operational
+- Total Monthly Costs: 64,943
+- Monthly Profit: 52,974
+- Represents 44.9% net margin with all crews operational
 
 ---
 
@@ -339,19 +339,19 @@ Brendan has a background in business administration and finance. His expertise i
 
 ### Monthly Cash Flow Analysis
 
-Month 1: Revenue 32,083 - Costs 18,515 = +{crew_1_monthly_profit} profit
-         (Minus $16,800 startup = -3,232 net)
+Month 1: Revenue 32,083 - Costs 18,833 = +{crew_1_monthly_profit} profit
+         (Minus $16,800 startup = -3,550 net)
 
-Month 2: Revenue 32,083 - Costs 18,515 = +{crew_1_monthly_profit} profit
-         (Cumulative: -3,232 + {crew_1_monthly_profit} = 10,336)
+Month 2: Revenue 32,083 - Costs 18,833 = +{crew_1_monthly_profit} profit
+         (Cumulative: -3,550 + {crew_1_monthly_profit} = 9,700)
 
 Month 3+: Steady +${crew_1_monthly_profit}/month profit
 
 ### Annual Cash Flow Projection
 
 Startup Investment:           -$16,800
-Year 1 Total Profit:          +162,816
-Adjusted Year 1 Net:          146,016
+Year 1 Total Profit:          +159,000
+Adjusted Year 1 Net:          142,200
 Year 2 Projection:            +$164,000+
 
 ---
@@ -432,7 +432,7 @@ Year 2 Projection:            +$164,000+
 ### Month 12: Full Operation
 - ✓ 117,917 monthly revenue (3-4 crews)
 - ✓ All 4 crews operational
-- ✓ 371,688 annual profit achieved
+- ✓ 635,688 annual profit achieved
 - ✓ Company systems and team established for scaling
 
 ---
