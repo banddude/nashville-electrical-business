@@ -35,17 +35,32 @@ def annotate_bars(ax: plt.Axes, bars: list[plt.Rectangle], formatter) -> None:
 
 def format_currency(value: float) -> str:
     """Return a human-friendly currency string rounded to the nearest dollar."""
-    return f"${value:,.0f}"
+    return f"${int(value):,}"
 
 def format_percent(value: float) -> str:
     """Return a percentage string with one decimal place."""
     return f"{value:.1f}%"
 
-def revenue_cost_profit_chart(data) -> None:
-    crews = [f"{i} Crew" + ("s" if i > 1 else "") for i in data.keys()]
-    revenue = np.array([d['monthly_revenue'] for d in data.values()])
-    costs = np.array([d['monthly_costs'] for d in data.values()])
-    profit = np.array([d['monthly_profit'] for d in data.values()])
+def revenue_cost_profit_chart(projections_data) -> None:
+    crews = ["1 Crew", "2 Crews", "3 Crews", "4 Crews"]
+    revenue = np.array([
+        float(projections_data[19][4].replace('$', '').replace(',', '')),
+        float(projections_data[19][6].replace('$', '').replace(',', '')),
+        float(projections_data[19][8].replace('$', '').replace(',', '')),
+        float(projections_data[19][10].replace('$', '').replace(',', '')),
+    ])
+    costs = np.array([
+        float(projections_data[18][4].replace('$', '').replace(',', '')),
+        float(projections_data[18][6].replace('$', '').replace(',', '')),
+        float(projections_data[18][8].replace('$', '').replace(',', '')),
+        float(projections_data[18][10].replace('$', '').replace(',', '')),
+    ])
+    profit = np.array([
+        float(projections_data[20][4].replace('$', '').replace(',', '')),
+        float(projections_data[20][6].replace('$', '').replace(',', '')),
+        float(projections_data[20][8].replace('$', '').replace(',', '')),
+        float(projections_data[20][10].replace('$', '').replace(',', '')),
+    ])
 
     x = np.arange(len(crews))
     width = 0.25
@@ -75,9 +90,21 @@ def revenue_cost_profit_chart(data) -> None:
     fig.savefig(OUTPUT_DIR / "revenue_chart.png", bbox_inches="tight")
     plt.close(fig)
 
-def profit_margin_chart(data) -> None:
-    crews = [f"{i} Crew" + ("s" if i > 1 else "") for i in data.keys()]
-    profit_margin = np.array([float(d['profit_margin'].strip('%')) for d in data.values()])
+def profit_margin_chart(projections_data) -> None:
+    crews = ["1 Crew", "2 Crews", "3 Crews", "4 Crews"]
+    revenue = np.array([
+        float(projections_data[19][4].replace('$', '').replace(',', '')),
+        float(projections_data[19][6].replace('$', '').replace(',', '')),
+        float(projections_data[19][8].replace('$', '').replace(',', '')),
+        float(projections_data[19][10].replace('$', '').replace(',', '')),
+    ])
+    profit = np.array([
+        float(projections_data[20][4].replace('$', '').replace(',', '')),
+        float(projections_data[20][6].replace('$', '').replace(',', '')),
+        float(projections_data[20][8].replace('$', '').replace(',', '')),
+        float(projections_data[20][10].replace('$', '').replace(',', '')),
+    ])
+    profit_margin = (profit / revenue) * 100
 
     x = np.arange(len(crews))
 
@@ -101,14 +128,9 @@ def profit_margin_chart(data) -> None:
     fig.savefig(OUTPUT_DIR / "profit_margin_chart.png", bbox_inches="tight")
     plt.close(fig)
 
-def cost_breakdown_chart() -> None:
-    with open('operating_expenses.csv', 'r') as f:
-        reader = csv.reader(f)
-        header = next(reader)
-        data = list(reader)
-
-    categories = [row[0] for row in data]
-    amounts = [int(row[4]) for row in data]
+def cost_breakdown_chart(projections_data) -> None:
+    categories = [row[1] for row in projections_data[9:18]]
+    amounts = [float(row[10].replace('$', '').replace(',', '')) for row in projections_data[9:18]]
 
     fig, ax = plt.subplots(figsize=(10, 10))
     
@@ -121,27 +143,12 @@ def cost_breakdown_chart() -> None:
     fig.savefig(OUTPUT_DIR / "cost_breakdown.png", bbox_inches="tight")
     plt.close(fig)
 
-def main() -> None:
-    with open('business_plan_data.csv', 'r') as f:
-        reader = csv.reader(f)
-        header = next(reader)
-        data = list(reader)
-
-    crew_data = {}
-    for row in data:
-        crew_count = int(row[0])
-        crew_data[crew_count] = {
-            'monthly_revenue': float(row[1]),
-            'monthly_costs': float(row[2]),
-            'monthly_profit': float(row[3]),
-            'profit_margin': row[4]
-        }
-
-    revenue_cost_profit_chart(crew_data)
-    profit_margin_chart(crew_data)
-    cost_breakdown_chart()
-    print("Charts regenerated successfully.")
-
-
 if __name__ == "__main__":
-    main()
+    with open('BIBLE/Nashville Electrical Business Plan - Projections.csv', 'r') as f:
+        reader = csv.reader(f)
+        projections_data = list(reader)
+
+    revenue_cost_profit_chart(projections_data)
+    profit_margin_chart(projections_data)
+    cost_breakdown_chart(projections_data)
+    print("Charts regenerated successfully.")

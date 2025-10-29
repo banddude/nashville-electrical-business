@@ -1,0 +1,25 @@
+Catagory,COST,Monthly Cost Per CREW,Monthly FIXED Cost,START UP PER CREW,START UP FIXED,TOTAL,NOTES
+Licensing/Insurance,GL,$12,$80,,,$92,
+Licensing/Insurance,EC License,$0,$42,$500,,$542,
+Licensing/Insurance,Bond,$0,$17,,,$17,
+Licensing/Insurance,Auto,$175,$0,,,$175,
+Licensing/Insurance,Umbrella ($1mil),$0,$65,,,$65,
+Licensing/Insurance,Nashville Biz License,$0,$54,,,$54,
+Vehicles,Gas,$0,$583,,,$583,CLACULATED
+Vehicles,Car Payment,$750,$0,"$10,000",0,"$10,750",
+Vehicles,Maintenance,$100,$0,,,$100,
+Vehicles,Car Wrap,$0,$0,"$3,500",,"$3,500",
+Marketing,Ad Spend,$0,"$2,000",,,"$2,000",
+Office,Office Lease,$0,$833,,,$833,
+Office,QuickBooks,$20,$200,,,$220,
+Office,Google Workspace,$14,$28,,,$42,
+Office,ServiceTitan,$75,$200,,,$275,
+Office,Mobile Phone,$50,$0,$700,,$750,
+Office,Office Phone,$0,$20,,,$20,
+Office,iPad,$10,$0,$600,,$610,
+Consumables,Crew Consumables,,219.4444444,,,219.4444444,
+Consumables,Office Consumables,,50,,,50,
+Technician,,$0,$0,$500,,$500,Start up cost: Tools
+Apprentice,,$0,$0,$500,,$500,Start up cost: Tools
+Admin,,$0,$200,$500,,$700,Start up cost: Computer
+Project Manager,,$0,$0.00,,,$0,

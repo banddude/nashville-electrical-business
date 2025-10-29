@@ -43,21 +43,22 @@ def main():
     template = template.replace('{crew_3_monthly_costs_total}', format_currency(crew_data[3]['monthly_costs']))
     template = template.replace('{crew_4_monthly_costs_total}', format_currency(crew_data[4]['monthly_costs']))
 
-    with open('operating_expenses.csv', 'r') as f:
+    with open('BIBLE/Nashville Electrical Business Plan - Projections.csv', 'r') as f:
         reader = csv.reader(f)
-        header = next(reader)
-        operating_expenses_data = list(reader)
+        projections_data = list(reader)
 
     monthly_operating_costs_table = "| Category | 1 Crew Monthly | 2 Crew Monthly | 3 Crew Monthly | 4 Crew Monthly |\n|---|---|---|---|---|"
     totals = [0, 0, 0, 0]
-    for row in operating_expenses_data:
-        monthly_operating_costs_table += f"| {row[0]} | ${int(row[1]):,} | ${int(row[2]):,} | ${int(row[3]):,} | ${int(row[4]):,} |\n"
-        totals[0] += int(row[1])
-        totals[1] += int(row[2])
-        totals[2] += int(row[3])
-        totals[3] += int(row[4])
-    
-    monthly_operating_costs_table += f"| **Total Monthly Costs** | **${totals[0]:,}** | **${totals[1]:,}** | **${totals[2]:,}** | **${totals[3]:,}** |\n"
+    for i in range(9, 18):
+        row = projections_data[i]
+        monthly_operating_costs_table += f"| {row[1]} | ${int(row[4].replace('$', '').replace(',', '')):,} | ${int(row[6].replace('$', '').replace(',', '')):,} | ${int(row[8].replace('$', '').replace(',', '')):,} | ${int(row[10].replace('$', '').replace(',', '')):,} |\n"
+        totals[0] += int(row[4].replace('$', '').replace(',', ''))
+        totals[1] += int(row[6].replace('$', '').replace(',', ''))
+        totals[2] += int(row[8].replace('$', '').replace(',', ''))
+        totals[3] += int(row[10].replace('$', '').replace(',', ''))
+
+    total_costs_row = projections_data[18]
+    monthly_operating_costs_table += f"| **Total Monthly Costs** | **${int(total_costs_row[4].replace('$', '').replace(',', '')):,}** | **${int(total_costs_row[6].replace('$', '').replace(',', '')):,}** | **${int(total_costs_row[8].replace('$', '').replace(',', '')):,}** | **${int(total_costs_row[10].replace('$', '').replace(',', '')):,}** |\n"
 
     template = template.replace('{monthly_operating_costs_table}', monthly_operating_costs_table)
 
