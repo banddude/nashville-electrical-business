@@ -115,9 +115,8 @@ def cost_breakdown_chart() -> None:
         "Vehicles",
         "Marketing",
         "Other Operating Costs",
-        "Unaccounted Costs",
     ]
-    amounts = np.array([18333, 22917, 11111, 3985, 2000, 6597, 22000])
+    amounts = np.array([18333, 44917, 11111, 3985, 2000, 6597])
 
     fig, ax = plt.subplots(figsize=(7.5, 4.5))
     
