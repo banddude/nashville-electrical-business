@@ -1,6 +1,8 @@
 # Nashville Electrical Business Plan
 ## Mike Shaffer & Brendan Dauenhauer
 
+<img src="logo.png" alt="Logo" width="150"/>
+
 ---
 
 ## Executive Summary
@@ -619,12 +621,6 @@ Year 2 Projection:            +$164,000+ (full year operations)
 
 ---
 
-## Logo
-
-![Logo](logo.png)
-
----
-
-**Document Version:** 1.1
+**Document Version:** 1.2
 **Last Updated:** October 29, 2025
 **Next Review:** November 30, 2025
