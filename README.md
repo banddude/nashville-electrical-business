@@ -5,7 +5,7 @@
 
 ## Executive Summary
 
-This business plan outlines the launch of a residential electrical contracting company in Nashville, TN. The partnership between Mike Shaffer and Brendan Dauenhauer aims to establish a professional electrical services firm with competitive pricing, strong operational systems, and sustainable growth through the first four crews.
+A business plan for a residential electrical contracting company in Nashville, TN. A partnership between Mike Shaffer and Brendan Dauenhauer to create a professional electrical services firm with competitive pricing, strong operational systems, and a plan for sustainable growth.
 
 **Key Financial Metrics:**
 - Year 1 Startup Costs: $16,800
@@ -13,6 +13,19 @@ This business plan outlines the launch of a residential electrical contracting c
 - Year 1 Profit Projection: $13,589 (First Crew)
 - Target: Scale to 4 crews within 12 months
 - Year 1 Total Company Revenue Potential: $1,415,000 (with all 4 crews)
+
+---
+
+## Market Analysis
+
+### Target Market
+Our primary target market is residential homeowners in the greater Nashville area, with a focus on middle to upper-middle-class neighborhoods where there is a higher demand for quality electrical work and smart home installations. We will also target small businesses and property management companies for recurring service contracts.
+
+### Competitive Landscape
+The Nashville electrical market is competitive. We will differentiate ourselves through:
+*   **Superior Customer Service:** Clear communication, transparent pricing, and a focus on customer satisfaction.
+*   **Specialization:** Expertise in high-demand areas like EV charger installations, solar panel systems, and smart home automation.
+*   **Agility:** As a smaller company, we can be more responsive and flexible than larger competitors.
 
 ---
 
@@ -53,17 +66,17 @@ With 4 Crews (Month 12):   $1,415,000 revenue → $371,681 profit
 
 **Crew Composition:**
 - Hired Lead Technician: 30 hours/week at $30-50/hour base pay
-- Mike: Project Manager & Business Operations (scheduling, invoicing, client management)
-- Brendan: Investor/Business Partner (capital and strategic oversight)
-- Hours per week: 30 billable (Technician in field)
-- Hourly rate: $100 (billable to clients)
+- Mike: Project Manager & Business Operations
+- Brendan: Investor/Business Partner
+- Hours per week: 30 billable
+- Hourly rate: $100
 - Annual billable hours: 1,560
 - Monthly billable: 120 hours
 
 #### Second Crew (Growth Phase)
 - **Annual Revenue:** $170,000
 - **Monthly Revenue:** $14,166.67
-- **Monthly Costs:** $8,333.33 (includes -$833.33 employee impact)
+- **Monthly Costs:** $8,333.33
 - **Monthly Profit:** $5,833.33
 
 **Crew Composition:**
@@ -73,9 +86,9 @@ With 4 Crews (Month 12):   $1,415,000 revenue → $371,681 profit
 - Monthly billable: 80 hours
 
 #### Third & Fourth Crews
-- Expanding capacity with similar operational models
-- Scaling labor costs and equipment expenses
-- Increasing profit margins as overhead distributes across multiple crews
+- Expanding capacity with similar operational models.
+- Scaling labor costs and equipment expenses.
+- Increasing profit margins as overhead distributes across multiple crews.
 
 ---
 
@@ -126,7 +139,7 @@ Total Monthly: $51,171
 ### Monthly Operating Costs Structure
 
 | Category | 1 Crew Monthly | 2 Crew Monthly | 3 Crew Monthly | 4 Crew Monthly |
-|----------|-----------------|-----------------|-----------------|-----------------|
+|---|---|---|---|---|
 | Licensing/Insurance | $256 | $632 | $819 | $1,028 |
 | Vehicles | $583 | $2,283 | $3,133 | $3,985 |
 | Marketing | $2,000 | $2,000 | $2,000 | $2,000 |
@@ -141,19 +154,20 @@ Total Monthly: $51,171
 ### Key Expense Categories
 
 #### Licensing & Insurance
-- State electrical license: Part of ongoing compliance
-- Vehicles insurance: Per vehicle coverage
-- Liability coverage: Professional electrical work
+- State electrical license
+- Vehicle insurance
+- Liability coverage
 
 #### Vehicles
 - First crew: $850/month (van lease/loan)
 - Additional crews: $450/crew expansion cost
 - Maintenance and fuel included
 
-#### Marketing
-- Digital presence and local advertising
-- Strategic allocation: $0 for first crew (using Mike & Brendan's existing networks), ramping to $3,000 at 3 crews
-- Reduction at 4 crews as reputation-based work increases
+#### Marketing and Sales Strategy
+- **Digital Marketing:** A professional website with online booking, targeted Google Ads, and an active social media presence on Facebook and Instagram to showcase our work and engage with the community.
+- **Community Engagement:** Sponsoring local events and joining the Nashville Chamber of Commerce to build brand awareness and network with potential clients and partners.
+- **Referral Program:** A structured referral program to incentivize word-of-mouth marketing from satisfied customers.
+- **Initial Push:** The initial marketing push will leverage the personal and professional networks of Mike and Brendan to secure the first clients and build momentum.
 
 #### Labor Costs
 - **Technician:** $30/hour base rate, scales to $50 by month 12
@@ -169,9 +183,9 @@ Total Monthly: $51,171
 
 #### Single Crew (Current)
 - **Hired Lead Technician:** 30 hours/week in field ($30-50/hour base cost)
-- **Mike Shaffer:** Project Manager & Business Operations (scheduling, invoicing, client management)
-- **Brendan Dauenhauer:** Investor/Business Partner (capital contribution and strategic decisions)
-- Hourly rate to clients: $100 (billable rate)
+- **Mike Shaffer:** Project Manager & Business Operations
+- **Brendan Dauenhauer:** Investor/Business Partner
+- Hourly rate to clients: $100
 - Labor cost to company: Technician base pay ($30-50/hour)
 - Profit margin after labor: 41.3%
 
@@ -196,6 +210,16 @@ Total Monthly: $51,171
 - Project work: $100-150/hour based on complexity
 - Apprentice-led jobs: $75/hour (lower complexity)
 - Premium services: Up to $200+/hour for specialized work
+
+---
+
+## Management Team
+
+### Mike Shaffer - Operations Manager
+With over 15 years of experience as a licensed electrician and project manager, Mike brings a wealth of technical expertise and a deep understanding of the electrical contracting industry. His hands-on experience ensures the highest quality of work and efficient project execution.
+
+### Brendan Dauenhauer - Business Manager
+Brendan has a background in business administration and finance. His expertise in financial planning, marketing, and business development will drive the company's growth and ensure its long-term financial health.
 
 ---
 
@@ -236,7 +260,7 @@ $100,000 │               ╱╱╱╱
 ```
 
 | Month | Hours | Rate | Revenue | Costs | Profit |
-|-------|-------|------|---------|-------|--------|
+|---|---|---|---|---|---|
 | Month 1 | 120 | $100 | $12,000 | $1,206 | $10,794 |
 | Month 3 | 120 | $100 | $12,000 | $1,206 | $10,794 |
 | Month 6 | 120 | $110 | $13,200 | $1,206 | $11,994 |
@@ -270,7 +294,7 @@ $100,000 │               ╱╱╱╱
 ### Initial Investment: $16,800
 
 | Item | Cost |
-|------|------|
+|---|---|
 | Van/Vehicle | $600 |
 | Tools & Equipment | $7,000 |
 | Business License & Permits | $1,400 |
@@ -356,46 +380,40 @@ Month 12 │ $61,000+ revenue (4 crews operational) = $732K annual run-rate
 - [ ] Procure essential tools and equipment
 
 **Target Completion:** Week 4
-**Timeline:** Complete before first job estimates
 
 ### Phase 2: Brand & Marketing Setup (Weeks 3-6)
 - [ ] Create company branding (logo, colors, messaging)
 - [ ] Build professional website
-- [ ] Set up social media presence (Facebook, Instagram, Google Business)
+- [ ] Set up social media presence
 - [ ] Create business cards and marketing materials
 - [ ] Wrap/brand service vehicle
 
 **Target Completion:** Week 6
-**Timeline:** Ready for customer acquisition
 
 ### Phase 3: Operations & Service Delivery (Weeks 4-8)
 - [ ] Create onboarding docs and standard operating procedures
-- [ ] Develop company documentation (safety plan, quality standards, warranty info)
+- [ ] Develop company documentation
 - [ ] Set up customer communication systems
 - [ ] Establish project management and scheduling workflow
 - [ ] Create service templates and pricing guides
 
 **Target Completion:** Week 8
-**Timeline:** Operational readiness
 
 ### Phase 4: Client Acquisition (Weeks 6-12)
-- [ ] Reach out to existing clients and networks (Mike's connections)
-- [ ] Reach out to community and potential clients (Brendan's connections)
+- [ ] Reach out to existing clients and networks
 - [ ] Generate first 5-10 jobs to establish momentum
 - [ ] Collect testimonials and case studies
 - [ ] Implement referral program
 
 **Target Completion:** Week 12
-**Timeline:** Establish revenue stream
 
 ### Phase 5: Team Expansion (Month 3-6)
 - [ ] Recruit second technician and apprentice
 - [ ] Train new crew on company standards
 - [ ] Establish project management processes for 2 crews
-- [ ] Add admin support (part-time or contract)
+- [ ] Add admin support
 
 **Target Completion:** Month 6
-**Timeline:** Add second crew to revenue
 
 ### Phase 6: Scaling & Optimization (Month 6+)
 - [ ] Recruit and train third crew
@@ -405,7 +423,6 @@ Month 12 │ $61,000+ revenue (4 crews operational) = $732K annual run-rate
 - [ ] Evaluate performance metrics and profitability
 
 **Target Completion:** Month 12
-**Timeline:** Full 4-crew operation
 
 ---
 
@@ -427,7 +444,7 @@ Month 12 │ $61,000+ revenue (4 crews operational) = $732K annual run-rate
 ### Team & Administration
 - [ ] Hire apprentice/second technician
 - [ ] Set up onboarding docs and flow
-- [ ] Create company documentation (safety plan, etc)
+- [ ] Create company documentation
 
 ### Marketing & Brand (Priority: HIGH)
 - [ ] Make branding (logo, company identity)
@@ -437,8 +454,8 @@ Month 12 │ $61,000+ revenue (4 crews operational) = $732K annual run-rate
 - [ ] Start marketing campaigns
 
 ### Customer Acquisition (Priority: MEDIUM)
-- [ ] Reach out to existing clients (Mike's network)
-- [ ] Reach out to community (Brendan's network)
+- [ ] Reach out to existing clients
+- [ ] Reach out to community
 - [ ] Get first service calls booked
 - [ ] Build referral pipeline
 
@@ -530,23 +547,23 @@ Year 2 Projection:            +$164,000+ (full year operations)
 ### Cash Flow Risk
 - Maintain $10K+ working capital reserve
 - Invoice immediately upon job completion
-- Offer small discounts for quick payment (2% for payment within 7 days)
-- Track receivables closely, follow up within 30 days
+- Offer small discounts for quick payment
+- Track receivables closely
 
 ### Crew Dependency Risk
-- Cross-train technicians on multiple job types
+- Cross-train technicians
 - Document all processes and procedures
-- Build strong apprenticeship program for backup
+- Build strong apprenticeship program
 - Maintain bonus structure for retention
 
 ### Market Competition Risk
 - Differentiate through superior customer service
 - Build strong local reputation and referral network
-- Focus on niche services (ev charging, solar, smart home)
+- Focus on niche services
 - Maintain competitive but profitable pricing
 
 ### Seasonal Variability
-- Build financial reserves during high season (summer)
+- Build financial reserves during high season
 - Develop winter maintenance/upgrade service offerings
 - Plan marketing to smooth demand across seasons
 
@@ -590,7 +607,7 @@ Year 2 Projection:            +$164,000+ (full year operations)
 
 ### Next 2 Weeks
 1. Complete all licensing applications
-2. Secure vehicle (van lease/purchase)
+2. Secure vehicle
 3. Hire initial team members
 4. Set up business accounting system
 
@@ -602,6 +619,12 @@ Year 2 Projection:            +$164,000+ (full year operations)
 
 ---
 
-**Document Version:** 1.0
+## Logo
+
+![Logo](logo.png)
+
+---
+
+**Document Version:** 1.1
 **Last Updated:** October 29, 2025
 **Next Review:** November 30, 2025
