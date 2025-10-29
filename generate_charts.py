@@ -112,7 +112,7 @@ def cost_breakdown_chart() -> None:
         "Apprentice Labor",
         "Admin Labor",
         "Project Manager",
-        "Discrepancy",
+        "Contingency",
     ]
     amounts = np.array([1028, 3985, 2000, 1967, 269, 22917, 18333, 3333, 11111, 22000])
 
